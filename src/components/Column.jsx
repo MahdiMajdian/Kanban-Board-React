@@ -1,7 +1,6 @@
 import React from 'react'
 import { Droppable } from 'react-beautiful-dnd'
 import Task from './Task'
-import TaskList from './TaskList'
 
 const Column = (props) => {
     return (<div className='w-full m-8 p-4 border border-gray-300 bg-gray-100 shadow-lg rounded-lg max-w-md'>
